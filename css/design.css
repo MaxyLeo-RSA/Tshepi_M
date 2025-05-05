@@ -1,0 +1,253 @@
+body{
+    background-color: #fce6eb;
+
+}
+.background{
+    color: #000000;
+    
+    font-style: italic;
+    font-family: cursive;
+   
+}
+.info1{
+     text-align: center;
+     background-color: #f7c2d4;
+     border-radius: 35px;
+     padding: 30px;
+    
+
+}
+.info2{
+    text-align: center;
+    background-color: #f7c2d4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.logo{
+   align-items: center; 
+   text-align: center; 
+  
+  
+}
+nav{
+    margin-top: 0px;
+   
+}
+nav ul{
+    display: flex;
+    padding: 12px 24px;
+    background-color: #c874afd6;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    transition: 0,35 ease;
+    border-radius: 35px;
+    text-align: center;
+}
+nav ul li{
+    list-style:circle;
+    line-height: 5px;
+    line-break:5px;
+    flex: 1;
+    text-align: center;
+   
+
+
+}
+nav ul li a:hover{
+    background-color: #fce9eb;
+    text-align: center;
+   width: fit-content;
+   padding-top: 18px;
+   padding-bottom: 18px;
+   padding-right: 2px;
+   padding-left: 2px;
+   
+    border-radius: 35px;
+    line-height: 2px;
+
+}
+nav ul li a{
+    color: #000000;
+    font-size: 10px;
+    text-decoration: none;
+    
+    
+
+}
+.pop2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 75px auto;
+    
+    }
+    .box1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #c874afd6;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px 20px;
+    padding: 10px 10px;
+    border-radius: 35px;
+    cursor: pointer;
+    
+    }
+
+.box2{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    background-color: #f7c2d4;
+        
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0px 20px;
+        padding: 20px 20px;
+        border-radius: 35px;
+        cursor: pointer;
+        
+        }
+        .box3{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        background-color: #ffdaeefa;
+            
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin: 0px 20px;
+            padding: 20px 20px;
+            border-radius: 35px;
+            cursor: pointer;
+            padding-left: 10px;
+            padding-right: 10px;
+            
+            }        
+
+
+.disclaimer{
+    text-align: center;
+}
+*{
+margin: 5px;
+padding: -15px;
+box-sizing: border-box;
+border-radius: 10px;
+font-family: cursive;
+}
+.contact{
+    min-height: 0vh;
+    max-height: 100vh;
+    max-width: 500vh;
+    text-align: center;
+    background-color: #c874afd6;
+    padding: 1px;
+    border-radius: 35px;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;border-radius: 35px;
+}
+.container h2{
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 40px;  
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1px;
+}
+.contact-form{
+    text-align: center;
+
+}
+.contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+    
+}
+.form-group{
+    margin-bottom: 20px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;  
+    
+}
+.input,textarea{
+    width: 92%;
+    padding: 12px;
+    border-radius: 13px;
+    border: none;
+    background-color: #fafafa;
+    color: #000000;
+    outline: none;
+}
+.input:focus ,
+textarea:focus{
+outline: none;
+box-shadow: 0 0 8px #827e7e;
+border-radius: 13px;
+
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #f7c2d4;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    transition: 0,35 ease;
+    border-radius: 35px;
+    text-align: center;
+
+}
+button:hover {
+    background-color: #dd659c;
+    text-align: center;
+
+}
+.contact-info{
+    text-align: left;
+    
+}
+.contact h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+}
+.contact-info i{
+color: violet;
+margin-right:  10px; 
+
+}
+.contact-info p{
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center;
+}
+.container{
+    padding: 20px;
+    
+}
+.contact-wrapper{
+    grid-template-columns: 1fr;
+}
