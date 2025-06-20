@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport"content="width,initial-scale=1.0">
         <link rel="stylesheet" type="text/css"; href="css/design.css">
+        <script src="java/java.js" defer></script>
     </head>
     <body>
         <div class="background">
@@ -73,6 +74,19 @@
 
             </div>
         </section>
+       <div class="search-wrapper">
+    <label for="search">Search Vip List</label>
+    <input type="search" id="search" data-search>
+  </div>
+  <div class="user-cards" data-user-cards-container></div>
+  <template data-user-template>
+    <div class="card">
+      <div class="header" data-header></div>
+      <div class="body" data-body></div>
+    </div>
+  </template>
+        <div id="map"></div>
+         
           
         <br>
         <img src>
@@ -83,4 +97,8 @@
 </div>
         <br></div>
     </body>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=INSERT_YOUR_API_KEY&callback=initMap&v=weekly&solution_channel=GMP_CCS_customcontrols_v2"
+        defer
+      ></script>
 </html>
